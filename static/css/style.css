@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+
+span.floating-header {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+div.header-content {
+  display: grid;
+  width: 100%;
+  max-width: 600px;
+  grid-column: 2;
+  grid-row: 1;
+  grid-template-columns: auto 1fr auto;
+  justify-items: center;
+}
+button.header-button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  padding: 0;
+}
+#hamburger {
+  font-size: xx-large;
+}
+
+#apple {
+  display: flex;
+  height: auto;
+  /*noinspection CssInvalidPropertyValue*/
+  width: -webkit-fill-available;
+  width: -moz-available;
+  max-width: 500px;
+  justify-content: center;
+  font-size: x-large;
+  grid-column: 2;
+}
+.no-underline {
+  text-decoration-line: unset;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8em;
+}
+h2 {
+  font-size: 1.7rem;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+h3 {
+  font-size: 0.9rem;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+  line-height: 150%;
+}
+h5 {
+  font-size: 0.88rem;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+}
+.note {
+  color: darkgrey;
+}
+
+div.showcase-img {
+
+}
+
+
+div.item {
+  background-color: lightgrey;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 30vw;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom: white;
+  border-bottom-width: 10px;
+  line-break: normal;
+  text-align: center;
+  font-family: "Pixelated MS Sans Serif", Arial, sans-serif;
+  -webkit-font-smoothing: none;
+}
+
+a.supplementary-link {
+  z-index: 2;
+  position: relative;
+}
+span.full-element-link {
+  color: unset;
+  text-decoration: unset;
+  padding: 0;
+  text-decoration: unset;
+  color: unset;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+  /* fixes overlap error in IE7/8,
+     make sure you have an empty gif */
+  /*background-image: url('empty.gif');*/
+}
+
+
+div.full-element {
+  grid-column: 1 / -1 ;
+  height: auto;
+}
+
+div.half-element {
+    grid-column: 1 / -1;
+  height: auto;
+}
+
+
+div.window-options {
+  text-align: right;
+}
+
+#covid-19-support {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+#apple-tv-beastie-boys-story-promo {
+  display: flex;
+  align-content: center;
+}
+
+div.footer {
+  font-family: "Pixelated MS Sans Serif", Arial, sans-serif;
+  margin-top: 0.8em;
+  background-color: lightgray;
+  padding: 0.8em;
+
+}
+
+#footnotes {
+  line-height: 150%;
+
+}
